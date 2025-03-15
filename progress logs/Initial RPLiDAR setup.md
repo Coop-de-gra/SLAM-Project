@@ -3,10 +3,6 @@ gone for not but not forgotten <p>
 
 ---
 
-link to GPT: https://chatgpt.com/share/67d367d7-e578-8011-9503-00fd0c115c47 <p>
-
----
-
 installed drivers for the RPLiDAR (CP210x USB to UART Bridge) <p>
 plugged in RPLiDAR and it was pulse spinning but now it is constant RPM spinning <p>
 now I need to check that Windows is recognizing it as a COM port <p>
