@@ -3,6 +3,7 @@ LINKS<p>
 [RPLIDAR SDK](https://github.com/Slamtec/rplidar_sdk)<p>
 
 ---
+PROGRESSION LOGS<p>
 
 Starting fresh because XBOX 360 drivers and linux are a shit show <p>
 gone for not but not forgotten <p>
