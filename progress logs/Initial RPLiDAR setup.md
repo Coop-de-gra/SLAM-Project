@@ -1,3 +1,9 @@
+LINKS<p>
+[RPLIDAR sensor in MATLAB](https://github.com/mathworks/Streamer-Slamtec-RPLIDAR-Sensor-in-MATLAB)<p>
+[RPLIDAR SDK](https://github.com/Slamtec/rplidar_sdk)<p>
+
+---
+
 Starting fresh because XBOX 360 drivers and linux are a shit show <p>
 gone for not but not forgotten <p>
 
