@@ -15,4 +15,8 @@
 ### Resources?
 * almost all of the resources it provides are for 3D Lidar and [cloud data](https://github.com/Coop-de-gra/SLAM-Project/blob/main/Ref/Vocabulary_&_Terms/cloud_data.md).
 * however, one of the resources is for generating a [build map from 2-D lidar scan using SLAM](https://www.mathworks.com/help/lidar/ug/build-map-from-2d-lidar-scans-using-slam.html), which is right smack in the middle of our scope.
-  
+
+### Build Map from 2D lidar scans using SLAM
+* shows how to implement SLAM algo on a series of 2D lidar scans
+* uses scan processing and pose graph optimization (PGO)
+* 
