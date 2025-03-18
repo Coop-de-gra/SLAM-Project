@@ -19,4 +19,11 @@
 ### Build Map from 2D lidar scans using SLAM
 * shows how to implement SLAM algo on a series of 2D lidar scans
 * uses scan processing and pose graph optimization (PGO)
-* 
+* example uses offline SLAM algo
+* incrementally processes recorded lidar scans and builds pose graph to map environment
+* to overcome drift in robot trajectory, example uses scan matching to recognize objects and loop closure to optimize poses
+* sources pose graph optimization function from the [navigation toolbox](https://www.mathworks.com/help/nav/index.html)
+
+##### Example
+* estimate robot trajectory from a series of scans. optimize drift in trajectory. visualize map using scans and pose optimization
+* example uses data previously collected from a Jackal robot with a SICK TiM511 Lidar
