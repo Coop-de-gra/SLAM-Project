@@ -1,8 +1,3 @@
-### Why
-There are simply some things I haven't heard of and this is a place to collect them and define them
-
----
-
 semantic segmentation - computer vision task where the goal is to classify each pixel in an image into a specific category
   * ex:
     * input - a street scene.
