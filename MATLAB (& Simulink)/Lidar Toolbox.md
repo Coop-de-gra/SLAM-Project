@@ -23,5 +23,5 @@
 * incrementally processes recorded lidar scans and builds pose graph to map environment
 * to overcome drift in robot trajectory, example uses scan matching to recognize objects and loop closure to optimize poses
 * sources pose graph optimization function from the [navigation toolbox](https://www.mathworks.com/help/nav/index.html)
-* repo deconstructing this example found [here]()
+* repo deconstructing this example found [here](https://github.com/Coop-de-gra/SLAM-Project/blob/main/MATLAB%20(&%20Simulink)/Examples_Sandbox/Map_from_2D_Lidar_SLAM.md)
 
