@@ -1,10 +1,16 @@
-### What
+## What
 * estimate robot trajectory from a series of scans. optimize drift in trajectory. visualize map using scans and pose optimization
 * example uses data previously collected from a Jackal robot with a SICK TiM511 Lidar
 
-### Code Deconstruction
+---
+
+## Progression Logs
+* [test]
 
 ---
+
+## Code Deconstruction
+
 Load lidar data
 
 ```
