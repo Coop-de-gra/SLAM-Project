@@ -12,4 +12,11 @@ Verify that I have the Lidar Toolbox and Navigation toolbox installed - and I do
 Navigate to Lidar toolbox > Documentation > Build Map from 2-D lidar Scans Using SLAM > Open Live Script <p>
 Copy command and enter into the MATLAB commans window<p>
 
+---
+
+command window located at the bottom of MATLAB window...
+
+---
+
+
 
