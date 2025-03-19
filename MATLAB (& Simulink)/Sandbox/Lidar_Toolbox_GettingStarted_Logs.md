@@ -18,5 +18,17 @@ command window located at the bottom of MATLAB window...
 
 ---
 
+```
+data = load("wareHouse.mat");
+scans = data.wareHouseScans;
+```
+writes data and scans into the 'workspace' tab to the right
+
+---
+
+feels like I'm just copying and pasting code and not really learning anything - going to find the working file and sift through<p>
+hopefully I can reverse engineer it or at least something close<p>
+
+---
 
 
