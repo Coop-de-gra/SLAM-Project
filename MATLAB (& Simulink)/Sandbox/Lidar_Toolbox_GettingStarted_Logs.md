@@ -42,7 +42,7 @@ however, nothing's jumping out at me screaming useful - gotta keep looking<p>
 
 ---
 
-ran the following code and it's erroring at unrecognized variable 'gridResolution' - I need to find its file<p>
+ran the following code and it's erroring at `unrecognized variable 'gridResolution'` - I need to find its file<p>
 ```
 loopClosureThreshold = 110;
 loopClosureSearchRadius = 2;
