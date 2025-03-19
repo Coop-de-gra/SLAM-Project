@@ -85,4 +85,14 @@ talks all about Description, Creation, Properties, Object Functions, Examples, e
 
 from what it's starting to feel like and recounting my memories of research in college<p>
 MATLAB is essentially a huge toolbox - and the user just brings the data and figures out how to use the toolbox<p>
-in research, this guy Aidan (i think) was looking at micro organism 
+in research, this guy Aidan (i think) was looking at micro organism locomotion<p>
+there was a lil guy sitting in a pool of seeded (polymide particles maybe) water and took a video of its locomotion and analyzed how the particles were moving around it<p>
+and I remember being so amazed by how he could code everything from scratch just by using sheer knowledge<p>
+but looking back at it now, it would seem so much more efficient to just bring data in, use a tool box to anaylyze it, and create an output - following the theme of 'no need to reinvent the wheel'<p>
+
+---
+
+it may not sound or feel very exciting, but to me its such a eurika moment mixed with finally getting a joke someone said after the time has long passed <p>
+
+---
+
