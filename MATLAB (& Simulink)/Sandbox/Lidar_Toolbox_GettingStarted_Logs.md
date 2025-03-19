@@ -42,4 +42,27 @@ however, nothing's jumping out at me screaming useful - gotta keep looking<p>
 
 ---
 
+ran the following code and it's erroring at unrecognized variable 'gridResolution' - I need to find its file<p>
+```
+loopClosureThreshold = 110;
+loopClosureSearchRadius = 2;
+loopClosureNumMatches = 1;
+mapObjLoop = lidarscanmap(gridResolution,maxLidarRange);
+for i = 1:numel(scans)
+    isScanAccepted = addScan(mapObjLoop,scans{i});
+    % Detect loop closure if scan is accepted
+     if isScanAccepted
+         [relPose,matchScanId] = detectLoopClosure(mapObjLoop, ...
+             MatchThreshold=loopClosureThreshold, ...
+             SearchRadius=loopClosureSearchRadius, ...
+             NumMatches=loopClosureNumMatches);
+         % Add loop closure to map object if relPose is estimated
+         if ~isempty(relPose)
+            addLoopClosure(mapObjLoop,matchScanId,i,relPose);
+         end
+     end
+end
+```
+
+---
 
