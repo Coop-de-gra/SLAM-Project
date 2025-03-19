@@ -66,3 +66,23 @@ end
 
 ---
 
+okay so horrible brain fart...<p>
+I ran the command clear thinking it would clean up the command window from history<p>
+and instead it cleaned the workspace and I was unaware...<p>
+everything works fine, I just had to re-run the tutorial<p>
+
+---
+
+Okay so new brain blast - the tutorial code is calling all of these function and I'm stuck wondering where they are located <p>
+so I'm trying to find these files just so I can reverse engineer it some what and learn about whats going on<p>
+and I remeber that libraries (like lidar-toolbox) usually have docs...<p>
+If you see where I'm going, you'll understand that all of the functions being called are listed in the documents<p>
+for example, we can look at the code above and obviously see that `lidarscanmap` is an obvious built in function<p>
+going into the docs, we can find lidarscan map and read up on it<p>
+talks all about Description, Creation, Properties, Object Functions, Examples, etc.
+
+---
+
+from what it's starting to feel like and recounting my memories of research in college<p>
+MATLAB is essentially a huge toolbox - and the user just brings the data and figures out how to use the toolbox<p>
+in research, this guy Aidan (i think) was looking at micro organism 
