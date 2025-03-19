@@ -31,4 +31,15 @@ hopefully I can reverse engineer it or at least something close<p>
 
 ---
 
+warehouse.mat would be a great file to find - doesn't look like its in my local files<p>
+going to finish the tutorial and see if anything stands out<p>
+
+---
+
+welp that was short lived - tried to imput a legend on the lidarscanmap and it threw a warning about legend imputs<p>
+then I pulled up the legend metadata, located it in my local files, and found the wareHouse.mat file off my M.2 from there<p>
+however, nothing's jumping out at me screaming useful - gotta keep looking<p>
+
+---
+
 
