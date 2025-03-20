@@ -9,7 +9,7 @@ ex. Getting Started, I/O, PreProcessing, Labeling Segmentation & Detection, Dete
 like what! this is everything I need and exactly what I was touching on at the end of my last [log](https://github.com/Coop-de-gra/SLAM-Project/blob/2258c9603e8a6871cad05ce08ceb69c0f7c05d5d/MATLAB%20(%26%20Simulink)/Sandbox/Logs%40Lidar_Toolbox_GettingStarted.md) when I was shadowing someone use MATLAB for real for the first time in College @ research <p>
 I'm really enjoying this<p>
 
---
+---
 
 quick note, `clc` clears Command Window<p>
 
@@ -30,5 +30,77 @@ found in: <p>
 goal: represent a robot in a 2D workspace with Lidar, detect obstacles, provide warning before potential impact)
 
 ---
+
+use a Binary Occupancy Map to define the warehouse with a grid, <p>
+0s or 1s represent walls or navigatable space<p>
+
+---
+
+new section because this is **really cool**
+we can create our own warehouse layout by creating one of these occupancy maps<p>
+and then, we can simulate 2D lidar sensor using a `rangeSensor` object AND COLLECT SIMULATED RANGE AND ANGLE READINGS<p>
+then we use the readings and angles to generate a lidarScan object that contains the 2D scan<p>
+LIKE WHAT<p>
+
+---
+
+before we go further, let me try to give this a shot<p>
+
+---
+
+starting with the [Binary Occupancy Map](https://www.mathworks.com/help/releases/R2024b/nav/ref/binaryoccupancymap.html)<p>
+we can already see how to create a map<p>
+```
+map = binaryOccupancyMap
+map = binaryOccupancyMap(width,height)
+map = binaryOccupancyMap(width,height,resolution)
+map = binaryOccupancyMap(rows,cols,resolution,"grid")
+map = binaryOccupancyMap(p)
+map = binaryOccupancyMap(p,resolution)
+map = binaryOccupancyMap(sourcemap)
+map = binaryOccupancyMap(sourcemap,resolution)
+map = binaryOccupancyMap(___,Name=Value)
+```
+reading through this and trying to tie something back to what were trying to accomplish...<p>
+THEY EVEN DEFINE WHAT EACH CREATION COMMAND DOES, THIS IS GOLD<p>
+reading the definitions, this is what we want: `map = binaryOccupancyMap(p)` because it creates a grid from the values in matrix `p`<p>
+so now we need to find how to make a matrix and define it as `p`<p>
+
+---
+
+looking into an example for `map = binaryOccupancyMap(p)`, we can also use a `.png` image and convert it to a map<p>
+and considering defining each single spot on the map with 1 or 0, i might give that a shot.
+
+---
+
+okay, I couldnt find a paint app on mac so im using the factory example from the binary occupancy map example<p>
+
+---
+
+SICK, WE HAVE A BOM<p>
+
+using these:<p>
+```
+image = imread('imageMap.png');
+grayimage = rgb2gray(image);
+bwimage = grayimage < 0.5;
+grid = binaryOccupancyMap(bwimage);
+show(grid)
+```
+it locates the png (make sure to put in in the current folder)<p>
+converts it to grayscale, and then black and white<p>
+and then creates a grid out of it, WHICH SO HAPPENS TO BE IN THE EXACT FORMAT FOR A BINARY OCCUPANCY MAP<p>
+
+---
+
+quick side thought<p>
+back in capstone when Jordan was using a camera to capture the thickness of the filament<p>
+that could have been done in a heartbeat with MATLAB, and he might have done it like that honestly<p>
+everything is making so much sense<p>
+
+---
+
+
+
 
 
