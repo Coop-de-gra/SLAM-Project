@@ -104,4 +104,4 @@ that way I can move things around and see whats going on <p>
 
 welp, didn't get to log data before my flight so I'm going to try another example/tutorial and see what I can find out <p>
 I'll link below to my next log<p>
-[]()
+[Collision Warning Using 2-D Lidar](https://www.mathworks.com/help/releases/R2024b/lidar/ug/collision-warning-using-2d-lidar.html)<p>
