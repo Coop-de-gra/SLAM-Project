@@ -12,3 +12,23 @@ I'm really enjoying this<p>
 --
 
 quick note, `clc` clears Command Window<p>
+
+---
+
+2D collision warning use case: AGV (Automatic Guided Vehicle), etc.<p>
+found in: <p>
+  * Resturaunts (kitchen to table delivery)
+  * Hospitals (delivering medication, linens, etc.)
+  * Airports (baggage handling)
+  * Distribution Centers (think Amazon)
+  * Warehouses (think Amazon)
+  * Manufacturing (material resuply, product lines, etc.)
+  * etc.
+
+---
+
+goal: represent a robot in a 2D workspace with Lidar, detect obstacles, provide warning before potential impact)
+
+---
+
+
