@@ -11,4 +11,4 @@ I'm really enjoying this<p>
 
 --
 
-
+quick note, `clc` clears Command Window<p>
