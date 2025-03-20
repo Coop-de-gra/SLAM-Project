@@ -99,3 +99,9 @@ it may not sound or feel very exciting, but to me its such a eurika moment mixed
 new day and i need to form some next steps<p>
 let's see if I can use my RPLIDAR A1M8 to create a .mat output and then run through the tutorial again with my data<p>
 that way I can move things around and see whats going on <p>
+
+---
+
+welp, didn't get to log data before my flight so I'm going to try another example/tutorial and see what I can find out <p>
+I'll link below to my next log<p>
+[]()
