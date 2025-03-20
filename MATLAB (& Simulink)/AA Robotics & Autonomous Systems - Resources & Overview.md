@@ -17,7 +17,7 @@
 
 #### Important Toolbox/MATLAB Products
 * [Lidar Toolbox](https://www.mathworks.com/help/lidar/index.html)
-* [Automated Driving Toolbox](https://www.mathworks.com/help/driving/index.html?s_tid=hc_product_card)
+* [Automated Driving Toolbox](https://www.mathworks.com/help/driving/index.html?s_tid=hc_product_card) (not in installer)
 * [Navigation Toolbox](https://www.mathworks.com/help/nav/index.html?s_tid=hc_product_card)
 * [Robotics System Toolbox](https://www.mathworks.com/help/robotics/index.html?s_tid=hc_product_card)
 * [ROS Toolbox](https://www.mathworks.com/help/ros/index.html?s_tid=hc_product_card) (Not in scope currently - use in next scope/project)
