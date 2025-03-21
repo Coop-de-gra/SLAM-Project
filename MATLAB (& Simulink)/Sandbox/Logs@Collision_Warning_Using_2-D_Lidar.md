@@ -146,6 +146,7 @@ and here is the usage:<p>
 ---
 well actually this example does a way better job at explaining it<p>
 you have to create the seperate values as arguments<p>
+and the pass them in<p>
 ```
 rbsensor = rangeSensor;
 
@@ -161,3 +162,21 @@ scan = lidarScan(ranges, angles);
 figure
 plot(scan)
 ```
+so lets try it!<p>
+
+---
+
+okay, this is what im working with:<p>
+<img width="405" alt="image" src="https://github.com/user-attachments/assets/df6a6470-6f54-4cca-88f9-98f2a90b3f8e" />
+and I'm setting the scanner to sit at (50,10) and look East<p>
+```
+truePose = [50 10 0]
+```
+but after the output, this is what im seeing<p>
+<img width="405" alt="image" src="https://github.com/user-attachments/assets/75061050-1c26-45a6-abb8-b83373213a11" />
+and I'm not sure its orientation or where it's located and looking at so I verify its true pose<p>
+will continue investigating<p>
+
+---
+
+
