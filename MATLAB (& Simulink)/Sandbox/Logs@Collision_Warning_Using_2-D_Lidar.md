@@ -224,3 +224,5 @@ sicccccckkkkkkkk<p>
 
 ---
 
+now we need to use our range sensor since it is collecting the 2D data and feed it into `lidarScan`<p>
+this is so it can store all of the 2D data we collect<p>
