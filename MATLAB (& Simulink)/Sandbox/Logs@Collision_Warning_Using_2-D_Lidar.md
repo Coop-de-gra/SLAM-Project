@@ -182,6 +182,8 @@ will continue investigating<p>
 OKAY so, I ran an easier location to verify, like the flat wall at (50, 10) and this is the output:<p>
 <img width="508" alt="image" src="https://github.com/user-attachments/assets/670f8fd1-9eba-4190-836c-4e5fcfe5f839" /><p>
 and this means that its looking to the East but on the map its plotting it to the South<p>
+which also means! that the earlier scan is correct<p>
+I just had to clue that the look reach was that far<p>
 
 ---
 
