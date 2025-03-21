@@ -100,6 +100,15 @@ everything is making so much sense<p>
 
 ---
 
+OKAY SO, back on track<p>
+the binary occupancy map it created is about 700x700 and im not sure if that will work with the example here <p>
+for reference, the one in the example is about 70x70 <p>
+so we have to down scale the image and re convert it to a binary occupancy map and its pretty easy<p>
+`grid2 = imresize(bwimage, .125`
+That converted the original matrix from 700x700 to about 80x80 which is probably good enough, but also I don't know if there was an issue in the first place<p>
+alright, lets keep going<p>
+
+---
 
 
 
