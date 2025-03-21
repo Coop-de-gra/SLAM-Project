@@ -183,7 +183,18 @@ OKAY so, I ran an easier location to verify, like the flat wall at (50, 10) and 
 <img width="508" alt="image" src="https://github.com/user-attachments/assets/670f8fd1-9eba-4190-836c-4e5fcfe5f839" /><p>
 and this means that its looking to the East but on the map its plotting it to the South<p>
 which also means! that the earlier scan is correct<p>
-I just had to clue that the look reach was that far<p>
+I just had no clue that the look reach was that far<p>
 
 ---
 
+another ex. <p>
+```
+truePose = [20 55 pi]
+[ranges, angles] = rbsensor(truePose, grid80x80);
+scan = lidarScan(ranges, angles);
+figure
+plot(scan)
+```
+and here is the output:<p>
+<img width="200" alt="image" src="https://github.com/user-attachments/assets/0b735a1c-b2fb-4433-99b6-24727fe8b88f" /><p>
+the only issue is that I have to rotate it 90deg counter clockwise<p>
