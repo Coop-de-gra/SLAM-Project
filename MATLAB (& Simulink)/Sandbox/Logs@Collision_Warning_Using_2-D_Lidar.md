@@ -110,6 +110,12 @@ alright, lets keep going<p>
 
 ---
 
-
+the `rangeSensor` is pretty much a simulated Lidar<p>
+it outputs range and angle measurements based on given sensor pose and occupancy map<p>
+looks like creation is pretty straight foward<p>
+```
+rbsensor = rangeSensor
+rbsensor = rangeSensor(Name,Value)
+```
 
 
