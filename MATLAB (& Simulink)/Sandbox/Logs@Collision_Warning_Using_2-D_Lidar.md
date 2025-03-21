@@ -122,5 +122,42 @@ so, research time on how to make one<p>
 
 ---
 
+okay so making a predefined waypoint deal is pretty straight foward<p>
+all you have to do ts make a simple matrix<p>
+```
+waypoints = [
+10,10;
+70,10;
+80,30;
+]
+```
+and now we can create the range sensor<p>
 
+---
 
+first we need to create the range sensor and set its properties<p>
+`rbsensor = rangeSensor`
+and then we can call the object with arguments as if it were a function<p>
+and here is the usage:<p>
+```
+[ranges,angles] = rbsensor(pose,map)
+```
+
+---
+well actually this example does a way better job at explaining it<p>
+you have to create the seperate values as arguments<p>
+```
+rbsensor = rangeSensor;
+
+// Specify the pose of the sensor and the ground-truth map.
+truePose = [0 0 pi/4];
+trueMap = binaryOccupancyMap(eye(10));
+
+// Generate the sensor readings.
+[ranges, angles] = rbsensor(truePose, trueMap);
+
+// Visualize the results using lidarScan.
+scan = lidarScan(ranges, angles);
+figure
+plot(scan)
+```
