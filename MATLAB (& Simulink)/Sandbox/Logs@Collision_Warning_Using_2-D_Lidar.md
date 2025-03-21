@@ -173,14 +173,14 @@ and I'm setting the scanner to sit at (50,10) and look East<p>
 truePose = [50 10 0]
 ```
 but after the output, this is what im seeing<p>
-<img width="405" alt="image" src="https://github.com/user-attachments/assets/75061050-1c26-45a6-abb8-b83373213a11" /><p>
+<img width="200" alt="image" src="https://github.com/user-attachments/assets/75061050-1c26-45a6-abb8-b83373213a11" /><p>
 and I'm not sure its orientation or where it's located and looking at so I verify its true pose<p>
 will continue investigating<p>
 
 ---
 
 OKAY so, I ran an easier location to verify, like the flat wall at (50, 10) and this is the output:<p>
-<img width="508" alt="image" src="https://github.com/user-attachments/assets/670f8fd1-9eba-4190-836c-4e5fcfe5f839" /><p>
+<img width="300" alt="image" src="https://github.com/user-attachments/assets/670f8fd1-9eba-4190-836c-4e5fcfe5f839" /><p>
 and this means that its looking to the East but on the map its plotting it to the South<p>
 which also means! that the earlier scan is correct<p>
 I just had no clue that the look reach was that far<p>
