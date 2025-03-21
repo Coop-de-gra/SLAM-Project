@@ -117,5 +117,10 @@ looks like creation is pretty straight foward<p>
 rbsensor = rangeSensor
 rbsensor = rangeSensor(Name,Value)
 ```
+but... it says "Load a MAT-file containing the predefined waypoints of the AGV into the workspace" and I'm not completely sure what that means<p>
+so, research time on how to make one<p>
+
+---
+
 
 
