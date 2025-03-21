@@ -226,3 +226,11 @@ sicccccckkkkkkkk<p>
 
 now we need to use our range sensor since it is collecting the 2D data and feed it into `lidarScan`<p>
 this is so it can store all of the 2D data we collect<p>
+
+---
+
+actually nevermind...<p>
+I'm not sure we needed rangeScan and lidarScan...<p>
+they both more or less do the same thing but lidarScan holds ranges as well as measured angle<p>
+while rangeScan more or less just shows you a range measurement of something<p>
+the tutorial is more or less misleading in that way but I'm glad I learned about rangeScan<p>
