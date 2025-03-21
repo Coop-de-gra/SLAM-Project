@@ -198,3 +198,29 @@ plot(scan)
 and here is the output:<p>
 <img width="200" alt="image" src="https://github.com/user-attachments/assets/0b735a1c-b2fb-4433-99b6-24727fe8b88f" /><p>
 the only issue is that I have to rotate it 90deg counter clockwise<p>
+
+---
+
+lil update here, you can use `camroll(90)` to rotate the plot view<p>
+now I can see the data correctly with where it's at<p>
+oh and make sure its at the end of the code above<p>
+
+---
+
+new MATLAB learning moment <p>
+instead of re-writing and pasting the code bubble above eveytime we want to use it, we can just save it as a script<p>
+so I copy the following code:<p>
+```
+[ranges, angles] = rbsensor(truePose, grid80x80);
+scan = lidarScan(ranges, angles);
+figure
+plot(scan)
+camroll(90)
+```
+call it RSsetup.m<p>
+and then run it by simply typing `RSsetup`<p>
+and it runs it!<p>
+sicccccckkkkkkkk<p>
+
+---
+
