@@ -229,17 +229,12 @@ this is so it can store all of the 2D data we collect<p>
 
 ---
 
-actually nevermind...<p>
-I'm not sure we needed rangeScan...<p>
-they both more or less do the same thing but lidarScan holds ranges as well as measured angle<p>
-while rangeScan more or less just shows you a range measurement of something<p>
-the tutorial is more or less misleading in that way but I'm glad I learned about rangeScan<p>
+okay so a little bit of a brain fart - we need to take a closer look at that script I wrote<p>
+we are using the radarSensor to return the angle and range<p>
+then we create scan and pass the lidarScan with the measurements we just created <p>
+then we create a figue, plot scan on it, and bobs your uncle<p>
+SWEET<p>
 
 ---
 
-WAIT - thats not correct<p>
-sorry i keep going back and forth<p>
-the rangeScan is used to return range and angle readings which is then used to generate a lidarScan object.
-
----
 
