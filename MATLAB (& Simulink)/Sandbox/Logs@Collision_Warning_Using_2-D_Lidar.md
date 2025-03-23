@@ -237,4 +237,17 @@ SWEET<p>
 
 ---
 
+okay keep it moving, next step - we cant forget about our predefined waypoints but I'm not sure how they fit in right now<p>
+the next technical step is seting up collision warning based on zones<p>
+
+---
+
+also looks like I hid the code in the MATLAB tutorial and have been working by sheer discovery this whole time<p>
+but hey I know more now...<p>
+
+---
+
+now trying to create a .mat file with the waypoints<p>
+
+---
 
